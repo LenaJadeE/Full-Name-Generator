@@ -6,12 +6,24 @@ public class FullNameParser {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Please enter your name: ");
+        String input = scanner.nextLine().trim();
 
+        String[] parts = input.split(" ");
 
+        String first = parts[0];
+        String middle;
+        String last;
 
+        if (parts.length == 3) {
+            middle = parts[1];
+            last = parts[2];
+        } else {
+            middle = "(none)";
+            last = parts[1];
+        }
 
-
-
+        System
 
     }
 }
