@@ -23,8 +23,9 @@ public class FullNameParser {
             last = parts[1];
         }
 
-        System
-
+        System.out.println("First name: " + first);
+        System.out.println("Middle name: " + middle);
+        System.out.println("Last name: " + last);
     }
 }
 

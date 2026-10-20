@@ -29,13 +29,12 @@ public class FullNameApplication {
 
         fullName += " " + last;
 
+        if (!suffix.isEmpty()) {
+            fullName += ", " + suffix;
+        }
 
-
-
-
-
-
-
+        System.out.println();
+        System.out.println("Full name: " + fullName);
 
     }
 }
